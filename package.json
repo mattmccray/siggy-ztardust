@@ -4,6 +4,7 @@
   "description": "Signal API wrapper allows you code to one api and target multiple libraries.",
   "main": "./lib/index.js",
   "exports": {
+    ".": "./lib/index.js",
     "./*": "./lib/"
   },
   "files": [
