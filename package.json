@@ -1,0 +1,37 @@
+{
+  "name": "siggy-ztardust",
+  "version": "0.1.1",
+  "description": "Signal API wrapper allows you code to one api and target multiple libraries.",
+  "main": "./lib/index.js",
+  "exports": {
+    "./*": "./lib/"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/*"
+  ],
+  "scripts": {
+    "build": "tsc --declaration",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmccray/siggy-ztardust.git"
+  },
+  "keywords": [],
+  "author": "Matt McCray <matt@elucidata.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattmccray/siggy-ztardust/issues"
+  },
+  "homepage": "https://github.com/mattmccray/siggy-ztardust#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "optionalDependencies": {
+    "@preact/signals-core": "^1.3.0",
+    "mobx": "^6.9.0",
+    "solid-js": "^1.7.3"
+  }
+}
