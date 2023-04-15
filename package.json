@@ -1,6 +1,6 @@
 {
   "name": "siggy-ztardust",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Signal API wrapper allows you code to one api and target multiple libraries.",
   "main": "./lib/index.js",
   "exports": {

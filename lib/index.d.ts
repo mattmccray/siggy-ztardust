@@ -23,5 +23,7 @@ declare const _default: {
     signal: typeof signal;
     computed: typeof computed;
     effect: typeof effect;
+    batch: typeof batch;
+    update: typeof update;
 };
 export default _default;

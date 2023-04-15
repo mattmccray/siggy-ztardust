@@ -46,4 +46,4 @@ export function update<T>(signal: Signal<T>, updater: (current: T) => T) {
 }
 
 
-export default { signal, computed, effect }
+export default { signal, computed, effect, batch, update }
